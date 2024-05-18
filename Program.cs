@@ -18,6 +18,12 @@ namespace desafioBarOO
             Console.Write("Quantidade de espetinhos: ");
             bill.barbecue = int.Parse(Console.ReadLine());
 
+            double consumo = bill.feeding();
+            double couvert = bill.cover();
+            double ingresso = bill.ticket();
+            double conta = bill.total();
+
+
         }
     }
 }
